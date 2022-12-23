@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #393E46;
+}
+
+h1{
+    font-size: 9rem;
+    color:#4ECCA3;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-shadow: 5px 0 #232931;
+
+}
+
+h2{
+    color:#4ECCA3;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    margin-bottom:1rem;
+    
+}
+
+p{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    padding:3rem 0;
+    font-size:2rem;
+}
+
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:3rem;
+
+}
+
+.player1,.player2{
+    display: inline-block;
+    text-align:center;
+    margin:0 2rem;
+}
+
+@media only screen and (max-width: 750px){
+    .players{
+        flex-direction: column;
+    }
+
+    .player1,.player2{
+        margin:2rem 0;
+    }
+
+}
